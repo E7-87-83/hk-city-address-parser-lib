@@ -36,9 +36,6 @@ records.forEach(address => {
 ## License
 MIT
 
-## Maintainer
-
-* Cheok Yin Fung (@E7-87-83)
 
 ### Contributers of "Hong Kong Address Parser"
 
@@ -51,6 +48,7 @@ MIT
 * UnKnoWn-Consortium (@UnKnoWn)
 
 ### Special Thanks of "Hong Kong Address Parser"
+
 * HoLok Chen
 * Ho Wa Wong (@howawong)
 * Ng Benny
@@ -64,7 +62,12 @@ MIT
 * Yat Tin Sunny Chan
 * Eric Yuen. Lun
 
+## Maintainer
+
+* Cheok Yin Fung (@E7-87-83)
+
 ## TODO
 
+* OGCIO no longer exists; modify related codes
 * Port the Library to Python
-* Finish Documentation
+* Finish Documentation (including History)
