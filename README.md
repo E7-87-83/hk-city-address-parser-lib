@@ -1,25 +1,31 @@
-# 香港地址解析器 Hong Kong Address Parser Lib
+# 香港城市地址解析器 Hong Kong City Address Parser Lib
 
-This is the JavaScript Address Resolver library for [Hong Kong Address Parser](https://g0vhk-io.github.io/HKAddressParser).
-Feel free to check the [frontend repo](https://github.com/g0vhk-io/HKAddressParser) or download the [npm package](https://www.npmjs.com/package/hk-address-parser-lib).
+This is a fork and continued development of [香港地址解析器 Hong Kong Address Parser Lib](https://github.com/g0vhk-io/hk-address-parser-lib).
 
+The original Hong Kong Address Parser Lib has been paused development for more than 5 years.
 
-For full details, see [https://g0vhk-io.github.io/hk-address-parser-lib](https://g0vhk-io.github.io/hk-address-parser-lib)
+Hong Kong Address Parser Lib was the JavaScript Address Resolver library for [Hong Kong Address Parser](https://g0vhk-io.github.io/HKAddressParser).
+
+For their details, see [https://g0vhk-io.github.io/hk-address-parser-lib](https://g0vhk-io.github.io/hk-address-parser-lib)
 
 ## Installation
 
-Install library from npm directly
-
 ```bash
-npm i hk-address-parser-lib
+git clone repo-address
+npm i
 ```
 
 ## Usage
+```bash
+node test.mjs
+```
+
+Content of test.mjs:
 
 ```javascript
 
-import AddressResolver from 'hk-address-parser-lib';
-
+#import AddressResolver from 'hk-city-address-parser-lib';
+import AddressResolver from './dist/hk-address-parser.cjs.js';
 ...
 
 const records = await AddressResolver.parse("address to search");
@@ -27,3 +33,38 @@ records.forEach(address => {
   //
 })
 ```
+
+## License
+MIT
+
+## Maintainer
+
+* Cheok Yin Fung (@E7-87-83)
+
+### Contributers of "Hong Kong Address Parser"
+
+* Brian Leung (@cswbrian)
+* Nandi Wong (@nandiheath)
+* Wong Wing Kam (@wingkwong)
+* Kan Omar (@oktak)
+* Law Wai Chun (@chunlaw)
+* Chai (@ylchan87)
+* UnKnoWn-Consortium (@UnKnoWn)
+
+### Special Thanks of "Hong Kong Address Parser"
+* HoLok Chen
+* Ho Wa Wong (@howawong)
+* Ng Benny
+* Lam Wai
+* Himphen Hui Hau Him (@himphen)
+* Ha Chi Yeung
+* Samson Lau
+* Carrie Lau
+* Gemini Cheng
+* Sze Ching Wee
+* Yat Tin Sunny Chan
+* Eric Yuen. Lun
+
+## TODO
+
+Port the Library to Python

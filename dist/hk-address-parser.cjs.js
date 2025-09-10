@@ -8563,7 +8563,7 @@ const NEAR_THRESHOLD = 0.05; // 50 metre
 async function searchAddressWithOGCIO(address) {
   let results = [];
   try {
-    const ogcioURL = `https://www.als.ogcio.gov.hk/lookup?q=${encodeURI(address)}&n=${OGCIO_RECORD_COUNT}`;
+    const ogcioURL = `https://www.als.gov.hk/lookup?q=${encodeURI(address)}&n=${OGCIO_RECORD_COUNT}`;
     const ogcioRes = await fetch(ogcioURL, {
       method: "GET",
       mode: "cors",
