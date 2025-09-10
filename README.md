@@ -42,6 +42,8 @@ MIT
 https://github.com/wingkwong/hk-address-parser
 
 
+## About the Hong Kong Address Parser
+
 ### Contributers of "Hong Kong Address Parser"
 
 * Brian Leung (@cswbrian)
@@ -67,11 +69,13 @@ https://github.com/wingkwong/hk-address-parser
 * Yat Tin Sunny Chan
 * Eric Yuen. Lun
 
-## Maintainer
+## About the Hong Kong City Address Parser
+
+### Maintainer
 
 * Cheok Yin Fung (@E7-87-83)
 
-## TODO
+### TODO
 
 * OGCIO no longer exists; modify related codes
 * Finish Documentation (including History)
