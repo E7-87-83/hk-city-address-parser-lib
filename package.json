@@ -1,7 +1,7 @@
 {
-    "name": "hk-address-parser-lib",
-    "version": "0.3.3",
-    "description": "The library for the HKAddressParser project",
+    "name": "hk-city-address-parser-lib",
+    "version": "0.0.1",
+    "description": "Continuation of hk-address-parser-lib",
     "author": "",
     "license": "MIT",
     "keywords": [
