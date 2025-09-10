@@ -11,8 +11,7 @@ For their details, see [https://g0vhk-io.github.io/hk-address-parser-lib](https:
 ## Installation
 
 ```bash
-git clone repo-address
-npm i
+npm i hk-city-address-parser-lib 
 ```
 
 ## Usage
@@ -24,7 +23,7 @@ Content of test.mjs:
 
 ```javascript
 
-#import AddressResolver from 'hk-city-address-parser-lib';
+// import AddressResolver from 'hk-city-address-parser-lib';
 import AddressResolver from './dist/hk-address-parser.cjs.js';
 ...
 
@@ -67,4 +66,5 @@ MIT
 
 ## TODO
 
-Port the Library to Python
+* Port the Library to Python
+* Finish Documentation
